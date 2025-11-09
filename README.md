@@ -1,2 +1,2 @@
-# Ikkun1913.github.io
-My Github Pages.
+"# Ikkun1913.github.io" 
+IkのGithub Pagesです。(ホームページ)

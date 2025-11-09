@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /index.html
+Disallow: /
+Disallow: /Template.html
+Sitemap: sitemap.html
