@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^example\.com
+RewriteRule (.*) https://www.Ikkun1913.github.io/$1 [R=301,L]

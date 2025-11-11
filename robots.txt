@@ -1,5 +1,6 @@
 User-Agent: *
 Allow: /index.html
+Allow: /Blog
 Disallow: /
 Disallow: /Template.html
 Sitemap: sitemap.html
