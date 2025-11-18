@@ -9,6 +9,7 @@ https://github.com/Ikkun1913/Ikkun1913.github.io/blob/main/README.md?plain=1
 けいせん で┏┣┗
 全部手打ちだよん
 定期更新必須
+Created in VSCode by Ik.
 -->
 
 # html:
@@ -36,7 +37,7 @@ https://github.com/Ikkun1913/Ikkun1913.github.io/blob/main/README.md?plain=1
 ┣ HNuranai.html                 HN占いをした
 ┣ top.html                      ブログのトップページ
 ┣ Touhou_kakaebom1.html         東方で抱えボムする件について
-┣ VSCode_folder-underbar.html   VSCodeでもエラーについて(今もVSCodeで打ってる)
+┣ VSCode_folder-underbar.html   VSCodeでもエラーについて
 ┗ WhatsHTML.html                HTMLについて
 
 # Programフォルダ
