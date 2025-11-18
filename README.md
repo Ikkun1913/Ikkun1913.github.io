@@ -2,6 +2,9 @@
 IkのGithub Pagesです。(ホームページ)
 # ファイルツリー(File Tree)
 更新されていなかったらIssueなどでお知らせください。
+このまま見ると崩れているので、
+https://github.com/Ikkun1913/Ikkun1913.github.io/blob/main/README.md?plain=1
+からご覧ください。
 <!--
 けいせん で┏┣┗
 全部手打ちだよん
