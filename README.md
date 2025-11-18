@@ -1,11 +1,14 @@
-"# Ikkun1913.github.io" 
+# Ikkun1913.github.io
 IkのGithub Pagesです。(ホームページ)
-ファイルツリー(File Tree)
-# けいせん で┏┣┗
-# 全部手打ちだよん
-# 定期更新必須
+# ファイルツリー(File Tree)
+更新されていなかったらIssueなどでお知らせください。
+<!--
+けいせん で┏┣┗
+全部手打ちだよん
+定期更新必須
+-->
 
-html:
+# html:
 ┏ 403.html          403 Forbriddenページ
 ┣ 404.html          404 Not Foundページ
 ┣ index.html        トップページ
@@ -18,13 +21,13 @@ html:
 ┣ sitemap.html      サイトマップ
 ┗ Template.html     サイトテンプレート
 
-他拡張子
+# 他拡張子:
 ┏ .htaccess         404とか403するためのやつ
 ┣ red_cm3.swf       赤い部屋のswf
 ┣ robots.txt        ただのrobots.txt(クロール対策ファイル)
 ┗ style.css         ただのcss(サイトの見た目を整えるファイル)
 
-Blogフォルダ
+# Blogフォルダ
 ┏ 2025┏10-31.html               ブログ
 ┣ Blog_Template.html            ブログテンプレート
 ┣ HNuranai.html                 HN占いをした
@@ -33,7 +36,7 @@ Blogフォルダ
 ┣ VSCode_folder-underbar.html   VSCodeでもエラーについて(今もVSCodeで打ってる)
 ┗ WhatsHTML.html                HTMLについて
 
-Programフォルダ
+# Programフォルダ
 ┏ HTML.html             HTML専用の実験室
 ┣ JavaScript.html       JavaScript専用の実験室
 ┣ Lab.html              実験室のトップページ
