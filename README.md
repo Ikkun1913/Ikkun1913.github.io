@@ -7,7 +7,7 @@ https://github.com/Ikkun1913/Ikkun1913.github.io/blob/main/README.md?plain=1
 からご覧ください。
 <!--
 けいせん で┏┣┗
-全部手打ちだよん
+全部手打ち
 定期更新必須
 Created in VSCode by Ik.
 -->
