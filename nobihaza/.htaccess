@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "のびハザ本家1の小実験室のパソコンで使うユーザー名とパスワードを入力"
+AuthUserFile https://Ikkun1913.github.io/nobihaza/.htpasswd
+require valid-user
