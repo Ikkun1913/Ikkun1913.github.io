@@ -32,7 +32,7 @@ Created in VSCode by Ik.
 ┗ style.css         ただのcss(サイトの見た目を整えるファイル)
 
 # Blogフォルダ
-┏ 2025┏10-31.html               ブログ
+┏ 2025・2026                          ブログ
 ┣ Blog_Template.html            ブログテンプレート
 ┣ HNuranai.html                 HN占いをした
 ┣ top.html                      ブログのトップページ
