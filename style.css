@@ -4,7 +4,7 @@ body {
   font-family: 'Segoe UI';
 }
 
-h1, h2, h3, h4, h5, h6{color: black;}
+h1, h2, h3, h4, h5, h6, summary{color: black;}
 a {color: blue;}
 a:hover {text-decoration: none;}
 
