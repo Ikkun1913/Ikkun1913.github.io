@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--This HTML Page Created by Ik.
+https://qiita.com/sakuraya/items/33f93e19438d0694a91d
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>UA Check</title>
+    </head>
+    <body>
+        <a href="./index.html">ホームに戻る(Back to Home)</a>
+        <h1>UA Check</h1>
+        <hr>
+        <script>
+            var userAgent = window.navigator.userAgent.toLowerCase();
+            if(userAgent.indexOf('msie') != -1 ||
+            userAgent.indexOf('trident') != -1) {
+                console.log('Internet Explorer');
+            } else if(userAgent.indexOf('edge') != -1) {
+                console.log('Edge');
+            } else if(userAgent.indexOf('chrome') != -1) {
+                console.log('Google Chrome');
+            } else if(userAgent.indexOf('safari') != -1) {
+                console.log('Safari');
+            } else if(userAgent.indexOf('firefox') != -1) {
+                console.log('FireFox');
+            } else if(userAgent.indexOf('opera') != -1) {
+                console.log('Opera');
+            } else {
+                console.log('Not Found Browser');
+                }
+            if(userAgent.indexOf('iphone') != -1) {
+                console.log('iPhoneをお使いですね');
+            } else if(userAgent.indexOf('ipad') != -1) {
+                console.log('iPadをお使いですね');
+            } else if(userAgent.indexOf('android') != -1) {
+            if(userAgent.indexOf('mobile') != -1) {
+                console.log('androidのスマホをお使いですね');
+            } else {
+                console.log('androidのタブレットをお使いですね');
+            }
+            } 
+
+
+
+        </script>
+    </body>
+</html>
