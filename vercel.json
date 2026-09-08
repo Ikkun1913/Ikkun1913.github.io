@@ -1,5 +1,7 @@
 {
   "framework": "jekyll",
+  "buildCommand": "jekyll build",
+  "installCommand": "bundle install",
   "cleanUrls": true,
   "routes": [
     {
