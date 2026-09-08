@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/.well-known/(.*)",
+      "dest": "/.well-known/$1"
+    }
+  ]
+}
