@@ -1,0 +1,13 @@
+<!-- Created by Google Mode (Gemini) -->
+<!-- ダークモード切り替えボタン -->
+<button id="theme-toggle" style="font-size: 20px; cursor: pointer; background: none; border: none; padding: 10px;">🌓</button>
+
+<script>
+  const toggleButton = document.getElementById('theme-toggle');
+  toggleButton.addEventListener('click', () => {
+    let currentTheme = document.documentElement.getAttribute('data-theme');
+    let newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+</script>
