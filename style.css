@@ -1,0 +1,51 @@
+/* Created by Google AI Mode ==========================================================================
+   1. カラー変数の定義（ライトモード・ダークモードの色の管理）
+   ========================================================================== */
+:root {
+  --bg-color: #ffffff;      /* ライトモードの背景色（白） */
+  --text-color: #333333;    /* ライトモードの文字色（濃いグレー） */
+  --link-color: #0066cc;    /* ライトモードのリンク色（青） */
+}
+
+/* ユーザーのOSがダークモード、または手動でダークモードが選ばれた場合 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;    /* ダークモードの背景色（暗いグレー） */
+    --text-color: #f5f5f5;  /* ダークモードの文字色（明るいグレー） */
+    --link-color: #66b2ff;  /* ダークモードのリンク色（明るい青） */
+  }
+}
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #f5f5f5;
+  --link-color: #66b2ff;
+}
+
+/* 手動でライトモードに固定された場合 */
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #0066cc;
+}
+
+/* ==========================================================================
+   2. 基本のスタイル適用
+   ========================================================================== */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif; /* 読みやすい標準フォント */
+  line-height: 1.6;        /* 行間を少しあけて読みやすく */
+  padding: 20px;           /* 画面端に余白を作る */
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s; /* 💡 切り替わるときにふわっと動くアニメーション */
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;   /* リンクの下線を消す（お好みで） */
+}
+
+a:hover {
+  text-decoration: underline; /* マウスを載せた時は下線を出す */
+}
