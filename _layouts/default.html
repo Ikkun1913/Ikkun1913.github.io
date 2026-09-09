@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--This HTML Page Created by Ik and A little AI.-->
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 💡 CSSのパスを「/style.css」にすることで、ブログフォルダ内などの深いページでも正しく読み込めるようになります -->
+        <link rel="stylesheet" href="/style.css">
+        <!-- 💡 {{ page.title }} と書くことで、各ページで設定したタイトルが自動でここに入ります -->
+        <title>Ik HomePage | {{ page.title }}</title>
+
+        <!-- 💡 ちらつき防止スクリプト -->
+        <script>
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        </script>
+    </head>
+    <body>
+        <header style="display: flex; justify-content: space-between; align-items: center;">
+            <!-- 💡 ホームへのリンクを「/index.html」にすることで、どのページからでも確実にホームに戻れるようになります -->
+            <a href="/index.html">ホームに戻る(Back to Home)</a>
+            
+            <!-- 💡 1個前に作ったダークモード切り替えボタンの部品をここで呼び出します -->
+            {% include theme-toggle.html %}
+        </header>
+        
+        <hr>
+
+        <main>
+            <!-- 💡 ここに、各ページの本文（h1やpタグなど）が自動的に流し込まれます -->
+            {{ content }}
+        </main>
+    </body>
+</html>
