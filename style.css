@@ -41,11 +41,6 @@ body {
   transition: background-color 0.3s, color 0.3s; /* 💡 切り替わるときにふわっと動くアニメーション */
 }
 
-a {
-  color: var(--link-color);
-  text-decoration: none;   /* リンクの下線を消す（お好みで） */
-}
-
 a:hover {
-  text-decoration: underline; /* マウスを載せた時は下線を出す */
+  text-decoration: none; /* マウスを載せた時は下線を出す */
 }
