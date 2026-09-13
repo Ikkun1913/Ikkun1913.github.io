@@ -42,5 +42,5 @@ body {
 }
 
 a:hover {
-  text-decoration: none; /* マウスを載せた時は下線を出す */
+  text-decoration: none; /* マウスを載せた時は下線を消す */
 }
