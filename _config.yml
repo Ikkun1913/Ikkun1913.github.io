@@ -3,3 +3,9 @@ plugins:
 url: "https://Ikkun1913.github.io"
 
 include: [".well-known"]
+
+exclude:
+  - "konna.site/ sonzai"
+  - ".well-known"
+  - ".vscode"
+  - "README.md"
