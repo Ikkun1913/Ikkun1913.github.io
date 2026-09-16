@@ -2,19 +2,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-include:
-  - "_includes"
-  - "_layouts"
-  - "Blog"
-  - "data"
-  - "fansite"
-  - "img"
-
-exclude:
-  - "konna.site/ sonzai"
-  - "Test"
-  - ".well-known"
-  - ".vscode"
-  - "node_modules"
-  - "Gemfile"
-  - "Gemfile.lock"
+url: "https://ikkun1913.github.io"
