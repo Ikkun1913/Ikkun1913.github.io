@@ -1,5 +1,3 @@
 User-Agent: *
 Allow: /index.html
-Disallow: /
-Allow: /Blog
-Sitemap: sitemap.html
+Sitemap: sitemap.xml
