@@ -6,5 +6,5 @@ IkのGithub Pagesです。(ホームページ)
 [Cloudflare Pages](https://ikkun1913-github-io.pages.dev)
 [DDNS Now](https://Ikkun19.f5.si)
 
-#サブサブドメイン
+# サブサブドメイン
 [fansite](fansite.ikkun19.f5.si)
